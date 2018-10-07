@@ -1,25 +1,3 @@
-# Tabler 
-
-Premium and Open Source dashboard template with responsive and high quality UI.
-
-<strong><a href="https://tabler.github.io/demo/">View Demo</a> | <a href="https://github.com/tabler/tabler/archive/master.zip">Download ZIP</a> | <a href="https://goo.gl/zJP2dT">Join us on Slack</a></strong>
-
-<br><br>
-
-![Tabler preview](https://tabler.github.io/assets/images/dashboard.png)
-
-## Documentation
-
-For full documentation, visit [tabler.github.io/tabler/docs](https://tabler.github.io/tabler/docs/index.html).
-
-## Getting Started
-
-### [Download ZIP](https://github.com/tabler/tabler/archive/dev.zip) or Git Clone
-
-```
-git clone https://github.com/tabler/tabler.git
-```
-
 ### Setup environment
 
 To use our build system and run documentation locally, you will need a copy of Tabler's source files and Node. Follow the steps below:
