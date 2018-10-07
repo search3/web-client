@@ -7,7 +7,7 @@
   status: success
   status-name: Success
   city: San Francisco
-  confirmations: 5
+  country: us
 
 -
   invoice: "00450"
@@ -18,7 +18,7 @@
   status: success
   status-name: Success
   city: New York
-  confirmations: 8
+  country: us
 
 -
   invoice: "00452"
@@ -29,7 +29,7 @@
   status: success
   status-name: Success
   city: San Francisco
-  confirmations: 8
+  country: us
 
 -
   invoice: "00450"
@@ -40,7 +40,7 @@
   status: success
   status-name: Success
   city: Oakland
-  confirmations: 14
+  country: us
 
 -
   invoice: "00450"
@@ -51,7 +51,7 @@
   status: danger
   status-name: Failed
   city: Berkeley
-  confirmations: "-"
+  country: us
 
 -
   invoice: "00450"
@@ -62,7 +62,7 @@
   status: success
   status-name: Success
   city: San Jose
-  confirmations: 26
+  country: us
 
 -
   invoice: "00450"
@@ -73,4 +73,4 @@
   status: success
   status-name: Success
   city: San Jose
-  confirmations: 26
+  country: us

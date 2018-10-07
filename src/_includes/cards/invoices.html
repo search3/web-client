@@ -11,6 +11,7 @@
 			<tr>
 				<th class="w-1">#</th>
 				<!--<th>Invoice Subject</th>-->
+				<th>Country</th>
 				<th>City</th>
 				<th>Coordinates</th>
 				<th>Timestamp</th>
@@ -28,6 +29,10 @@
 				<td><span class="text-muted">{{ forloop.index | plus: 14 }}</span></td>
 
 				<!--<td><a href="invoice.html" class="text-inherit">{{ invoice.name }}</a></td>-->
+
+				<td>
+					<i class="flag flag-{{ invoice.country }}"></i>
+				</td>
 
 				<td>
 					{{ invoice.city }}

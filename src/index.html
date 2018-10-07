@@ -12,22 +12,22 @@ menu: index
 	<div class="row row-cards">
 
 		<div class="col-6 col-sm-4 col-lg-2">
-			{% include cards/stats-1.html number=10 title="New Leads" percentage=6 %}
+			{% include cards/stats-1.html number=10 title="New Sightings" percentage=6 %}
 		</div>
 		<div class="col-6 col-sm-4 col-lg-2">
-			{% include cards/stats-1.html number=18 title="Unread Leads" percentage=3 %}
+			{% include cards/stats-1.html number=18 title="Sightings" percentage=3 %}
 		</div>
 		<div class="col-6 col-sm-4 col-lg-2">
-			{% include cards/stats-1.html number=62 title="Total Leads" percentage=9 %}
+			{% include cards/stats-1.html number=62 title="Leads" percentage=9 %}
 		</div>
 		<div class="col-6 col-sm-4 col-lg-2">
-			{% include cards/stats-1.html number="27.3K" title="Total Participants" percentage=17 %}
+			{% include cards/stats-1.html number="27.3K" title="Participants" percentage=17 %}
 		</div>
 		<div class="col-6 col-sm-4 col-lg-2">
 			{% include cards/stats-1.html number="14.2K DAI" title="Funds Raised" percentage=11 %}
 		</div>
 		<div class="col-6 col-sm-4 col-lg-2">
-			{% include cards/stats-1.html number="" title="Share" icon1="twitter" icon2="facebook" icon3="share-2" %}
+			{% include cards/stats-1.html number="" title="Share" icon1="twitter" icon2="facebook" icon3="mail" %}
 		</div>
 		<!--<div class="col-lg-6">-->
 			<!--{% include cards/development-activity.html %}-->
@@ -113,4 +113,11 @@ menu: index
 			{% include cards/invoices.html %}
 		</div>
 	</div>
+
+	<div class="row row-cards row-deck">
+		<div class="col-12">
+			{% include cards/map-world.html %}
+		</div>
+	</div>
+
 </div>
