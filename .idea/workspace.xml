@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fe62589-9c8a-4a00-8233-7641fe5fb0ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/_data/invoices.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/_data/invoices.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/_includes/cards/invoices.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/_includes/cards/invoices.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_includes/cards/stats-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/_includes/cards/stats-1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/_includes/cards/table-users.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/_includes/cards/table-users.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/dashboard/_flag.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/dashboard/_flag.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/dashboard/fonts/_feather.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/dashboard/fonts/_feather.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,38 +42,29 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="863" />
+          <entry key="html" value="1003" />
           <entry key="scss" value="22" />
-          <entry key="yml" value="488" />
+          <entry key="yml" value="704" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="863" />
+          <entry key="HTML" value="1003" />
           <entry key="SCSS" value="22" />
-          <entry key="YAML" value="488" />
+          <entry key="YAML" value="704" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.6954933">
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="81" selection-start-line="81" selection-end-line="81" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/assets/scss/dashboard/fonts/_feather.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="273">
-                  <caret line="807" column="9" selection-start-line="807" selection-start-column="4" selection-end-line="807" selection-end-column="9" />
+                <state relative-caret-position="442">
+                  <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
                 </state>
               </provider>
             </entry>
@@ -97,8 +84,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/_includes/cards/invoices.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="405">
-                  <caret line="50" column="26" lean-forward="true" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
+                <state relative-caret-position="184">
+                  <caret line="42" column="28" lean-forward="true" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
                 </state>
               </provider>
             </entry>
@@ -106,8 +93,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/_includes/cards/table-users.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="388">
-                  <caret line="56" selection-start-line="54" selection-end-line="56" />
+                <state relative-caret-position="1272">
+                  <caret line="97" column="17" lean-forward="true" selection-start-line="97" selection-start-column="17" selection-end-line="97" selection-end-column="17" />
                   <folding>
                     <element signature="e#1241#1247#0" expanded="true" />
                     <element signature="e#1247#1253#0" expanded="true" />
@@ -190,6 +177,15 @@
               </provider>
             </entry>
           </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/assets/scss/dashboard/fonts/_feather.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="252">
+                  <caret line="395" column="11" selection-start-line="395" selection-start-column="1" selection-end-line="395" selection-end-column="11" />
+                </state>
+              </provider>
+            </entry>
+          </file>
         </leaf>
       </split-first>
       <split-second>
@@ -197,8 +193,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/_data/invoices.yml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+                <state relative-caret-position="745">
+                  <caret line="175" lean-forward="true" selection-start-line="175" selection-end-line="175" />
                 </state>
               </provider>
             </entry>
@@ -209,12 +205,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>last</find>
-      <find>satisf</find>
-      <find>submi</find>
-      <find>visa</find>
-      <find>2checkout-dark</find>
-      <find>amazon-dark</find>
       <find>flags</find>
       <find>fa-facebook</find>
       <find>invoices</find>
@@ -239,11 +229,23 @@
       <find>camera</find>
       <find>twitter</find>
       <find>share</find>
+      <find>\t</find>
+      <find>user:</find>
+      <find>gps</find>
+      <find>gps:</find>
+      <find>-</find>
+      <find>price:</find>
     </findStrings>
     <replaceStrings>
       <replace>tx-no</replace>
       <replace>timestamp</replace>
       <replace>status: success</replace>
+      <replace />
+      <replace>gps:</replace>
+      <replace>longlat</replace>
+      <replace>coordinates:</replace>
+      <replace>, -</replace>
+      <replace>city:</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -254,12 +256,12 @@
       <list>
         <option value="$PROJECT_DIR$/src/assets/scss/dashboard/_payments.scss" />
         <option value="$PROJECT_DIR$/src/assets/scss/dashboard/_flag.scss" />
-        <option value="$PROJECT_DIR$/src/_data/invoices.yml" />
-        <option value="$PROJECT_DIR$/src/_includes/cards/invoices.html" />
         <option value="$PROJECT_DIR$/src/assets/scss/dashboard/fonts/_feather.scss" />
-        <option value="$PROJECT_DIR$/src/_includes/cards/table-users.html" />
         <option value="$PROJECT_DIR$/src/_includes/cards/stats-1.html" />
+        <option value="$PROJECT_DIR$/src/_data/invoices.yml" />
         <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/_includes/cards/invoices.html" />
+        <option value="$PROJECT_DIR$/src/_includes/cards/table-users.html" />
       </list>
     </option>
   </component>
@@ -437,7 +439,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538876964632" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538880574095" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -465,12 +467,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1538852103171</updated>
-      <workItem from="1538852104432" duration="12375000" />
+      <workItem from="1538852104432" duration="15268000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12375000" />
+    <option name="totallyTimeSpent" value="15268000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="28" width="1922" height="997" extended-state="6" />
@@ -575,24 +577,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/dashboard/fonts/_feather.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="395" column="11" selection-start-line="395" selection-start-column="1" selection-end-line="395" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/_data/invoices.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="745">
+          <caret line="175" lean-forward="true" selection-start-line="175" selection-end-line="175" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="81" selection-start-line="81" selection-end-line="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/scss/dashboard/fonts/_feather.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="807" column="9" selection-start-line="807" selection-start-column="4" selection-end-line="807" selection-end-column="9" />
+        <state relative-caret-position="442">
+          <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
         </state>
       </provider>
     </entry>
@@ -608,15 +610,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/_includes/cards/invoices.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="50" column="26" lean-forward="true" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
+        <state relative-caret-position="184">
+          <caret line="42" column="28" lean-forward="true" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/_includes/cards/table-users.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="56" selection-start-line="54" selection-end-line="56" />
+        <state relative-caret-position="1272">
+          <caret line="97" column="17" lean-forward="true" selection-start-line="97" selection-start-column="17" selection-end-line="97" selection-end-column="17" />
           <folding>
             <element signature="e#1241#1247#0" expanded="true" />
             <element signature="e#1247#1253#0" expanded="true" />

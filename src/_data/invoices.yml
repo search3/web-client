@@ -1,175 +1,175 @@
 -
   invoice: "00450"
   name: Design Works
-  user: Carlson Limited
+  coordinates: "36.01143, -141.43627"
   tx-no: "0xb3ef12..."
   timestamp: 15 Dec 2017
   status: success
   status-name: Success
-  price: $887
+  city: San Francisco
   confirmations: 5
 
 -
   invoice: "00450"
   name: UX Wireframes
-  user: Adobe
+  coordinates: "29.47893, -158.02217"
   tx-no: "0xfe964c..."
   timestamp: 12 Apr 2017
   status: success
   status-name: Success
-  price: $1200
+  city: Daly City
   confirmations: 8
 
 -
   invoice: "00452"
   name: New Dashboard
-  user: Bluewolf
+  coordinates: "26.35787, -162.36716"
   tx-no: "0x48147c..."
   timestamp: 23 Oct 2017
   status: success
   status-name: Success
-  price: $534
+  city: San Francisco
   confirmations: 8
 
 -
   invoice: "00450"
   name: Landing Page
-  user: Salesforce
+  coordinates: "37.77344, -122.42062"
   tx-no: "0x6df0d5..."
   timestamp: 2 Sep 2017
   status: success
   status-name: Success
-  price: $1500
+  city: Oakland
   confirmations: 14
 
 -
   invoice: "00450"
   name: Marketing Templates
-  user: Printic
+  coordinates: "34.38672, -153.38603"
   tx-no: "0x3525e5..."
   timestamp: 29 Jan 2018
   status: danger
   status-name: Failed
-  price: $648
+  city: Berkeley
   confirmations: "-"
 
 -
   invoice: "00450"
   name: Sales Presentation
-  user: Tabdaq
+  coordinates: "36.68302, -135.21987"
   tx-no: "0x8b65ed..."
   timestamp: 4 Feb 2018
   status: success
   status-name: Success
-  price: $300
+  city: San Jose
   confirmations: 26
 
 -
   invoice: "00450"
   name: Logo & Print
-  user: Apple
+  coordinates: "39.16739, -145.49822"
   tx-no: "0xc9dc75..."
   timestamp: 22 Mar 2018
   status: success
   status-name: Success
-  price: $2500
+  city: San Jose
   confirmations: 26
 
 -
   invoice: "00450"
   name: Icons
-  user: Tookapic
+  coordinates: "29.79813, -168.38327"
   tx-no: "0x2bfa11..."
   timestamp: 13 May 2018
   status: success
   status-name: Success
-  price: $940
+  city: San Francisco
   confirmations: 53
 
 -
   invoice: "00450"
   name: Design Works
-  user: Carlson Limited
+  coordinates: "50.16976, -131.23584"
   tx-no: "0x6bcd6e..."
   timestamp: 15 Dec 2017
   status: success
   status-name: Success
-  price: $887
+  city: Santa Clara
   confirmations: 54
 
 -
   invoice: "00450"
   name: UX Wireframes
-  user: Adobe
+  coordinates: "41.47631, -149.58426"
   tx-no: "0x21fcc3..."
   timestamp: 12 Apr 2017
   status: success
   status-name: Success
-  price: $1200
+  city: Palo Alto
   confirmations: 67
 
 -
   invoice: "00452"
   name: New Dashboard
-  user: Bluewolf
+  coordinates: "34.25143, -146.43627"
   tx-no: "0x431a09..."
   timestamp: 23 Oct 2017
   status: success
   status-name: Success
-  price: $534
+  city: Mountain View
   confirmations: 71
 
 -
   invoice: "00450"
   name: Landing Page
-  user: Salesforce
+  coordinates: "36.01143, -141.43627"
   tx-no: "0xf3bee2..."
   timestamp: 2 Sep 2017
   status: success
   status-name: Success
-  price: $1500
+  city: San Francisco
   confirmations: 186
 
 -
   invoice: "00450"
   name: Marketing Templates
-  user: Printic
+  coordinates: "29.47893, -158.02217"
   tx-no: "0xe6e04a..."
   timestamp: 29 Jan 2018
   status: danger
   status-name: Failed
-  price: $648
+  city: San Francisco
   confirmations: 195
 
 -
   invoice: "00450"
   name: Sales Presentation
-  user: Tabdaq
+  coordinates: "26.35787, -162.36716"
   tx-no: "0x209f6d..."
   timestamp: 4 Feb 2018
   status: success
   status-name: Success
-  price: $300
+  city: Oakland
   confirmation: 254
 
 -
   invoice: "00450"
   name: Logo & Print
-  user: Apple
+  coordinates: "37.77344, -122.42062"
   tx-no: "0xc40798..."
   timestamp: 22 Mar 2018
   status: success
   status-name: Success
-  price: $2500
+  city: San Francisco
   confirmations: 257
 
 -
   invoice: "00450"
   name: Icons
-  user: Tookapic
+  coordinates: "34.38672, -153.38603"
   tx-no: "0xd981b5..."
   timestamp: 13 May 2018
   status: success
   status-name: Success
-  price: $940
+  city: Mountain View
   confirmations: 278

@@ -3,7 +3,7 @@
 		<h3 class="card-title">Sightings</h3>
 	</div>
 	<div class="table-responsive">
-		<table class="table table-hover table-outline table-vcenter text-nowrap card-table">
+		<table class="table table-hover table-outline table-vcenter text-nowrap card-table datatable">
 			<thead>
 			<tr>
 				<th class="text-center">Country</th>
@@ -22,7 +22,6 @@
 			{% for user in site.data.users limit: 8 offset: 50 %}
 			{% assign percentage = forloop.index | random_number %}
 			{% assign time_offset = forloop.index | random_number: 0, 800 %}
-			{% assign photo_count = forloop.index | random_number: 2, 6 %}
 			{% assign register_offset = forloop.index | random_number: 0, 8000000 %}
 			<tr>
 				<td class="text-center">
@@ -70,7 +69,7 @@
 				<!--</td>-->
 
 				<td class="text-center">
-					<button type="button" class="btn btn-outline-primary"><i class="fe fe-camera"></i><sub>{{ photo_count }}</sub></button>
+					<button type="button" class="btn btn-outline-primary"><i class="fe fe-camera"></i></button>
 				</td>
 
 				<td class="text-center">
@@ -82,7 +81,7 @@
 				</td>
 
 				<td class="text-center">
-					<button type="button" class="btn btn-icon btn-outline-danger"><i class="fe fe-trash"></i></button>
+					<button type="button" class="btn btn-icon btn-outline-danger"><i class="fe fe-eye-off"></i></button>
 				</td>
 
 				<td class="text-center">
@@ -92,6 +91,12 @@
 			{% endfor %}
 			</tbody>
 		</table>
+		<script>
+          require(['datatables', 'jquery'], function(datatable, $) {
+            $('.datatable').DataTable();
+          });
+		</script>
+
 	</div>
 
 </div>

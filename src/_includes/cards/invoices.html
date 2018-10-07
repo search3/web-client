@@ -6,11 +6,12 @@
 		<table class="table card-table table-vcenter text-nowrap datatable">
 			<thead>
 			<tr>
-				<!--<th class="w-1">No.</th>-->
+				<th class="w-1">#</th>
 				<!--<th>Invoice Subject</th>-->
-				<th>User</th>
+				<th>City</th>
+				<th>Coordinates</th>
 				<th>Timestamp</th>
-				<th>Status</th>
+				<!--<th>Status</th>-->
 				<th>Contact</th>
 				<th>TX Id</th>
 				<th></th>
@@ -21,21 +22,25 @@
 			<tbody>
 			{% for invoice in site.data.invoices limit: 30 %}
 			<tr>
-				<!--<td><span class="text-muted">0000{{ forloop.index | plus: 14 }}</span></td>-->
+				<td><span class="text-muted">{{ forloop.index | plus: 14 }}</span></td>
 
 				<!--<td><a href="invoice.html" class="text-inherit">{{ invoice.name }}</a></td>-->
 
 				<td>
-					{{ invoice.user }}
+					{{ invoice.city }}
+				</td>
+
+				<td>
+					{{ invoice.coordinates }}
 				</td>
 
 				<td>
 					{{ invoice.timestamp }}
 				</td>
 
-				<td>
-					<span class="status-icon bg-{{ invoice.status }}"></span> {{ invoice.status-name }}
-				</td>
+				<!--<td>-->
+					<!--<span class="status-icon bg-{{ invoice.status }}"></span> {{ invoice.status-name }}-->
+				<!--</td>-->
 
 				<td>
 					<button type="button" class="btn btn-outline-primary">Contact Info</button>
@@ -62,9 +67,9 @@
 			</tbody>
 		</table>
 		<script>
-		require(['datatables', 'jquery'], function(datatable, $) {
-	    $('.datatable').DataTable();
-	  });
-	  </script>
+          require(['datatables', 'jquery'], function (datatable, $) {
+            $('.datatable').DataTable();
+          });
+		</script>
 	</div>
 </div>
