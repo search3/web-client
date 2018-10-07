@@ -8,6 +8,11 @@ create:
   icon: fe fe-plus-circle
   url: store.html
 
+submit:
+  name: Submit
+  icon: fe fe-send
+  url: blog.html
+
 interface:
   name: Share
   icon: fe fe-share-2

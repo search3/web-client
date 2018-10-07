@@ -4,6 +4,8 @@ title: Store components
 menu: create.store
 ---
 
+<!--THIS ACTUALLY CREATES CONTRACT-->
+
 <div class="container">
 	<div class="container-fluid">
 		<form>
@@ -13,7 +15,7 @@ menu: create.store
 				<input type="text" class="form-control" id="photoHash" placeholder="Enter photo hash">
 				<input type="text" class="form-control" id="expectedHashValue" placeholder="Enter expected hash value">
 			</div>
-			<button class="btn btn-primary" id="initiateBtn">Initiate</button>
+			<button class="btn btn-primary" id="initiateBtn">Create contract</button>
 		</form>
 	</div>
 </div>
@@ -299,7 +301,7 @@ menu: create.store
   $(document).ready(function () {
 	  // create and deploy contract
       document.getElementById("initiateBtn").addEventListener("click", function (e) {
-        e.preventDefault()
+        e.preventDefault();
 
         // let questionTextbox = 1;
         let modelHashBox = document.getElementById("modelHash");
