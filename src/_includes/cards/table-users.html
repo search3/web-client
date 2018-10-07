@@ -23,13 +23,12 @@
 				<th class="text-center">Photo</th>
 				<th class="text-center">Connect</th>
 				<th class="text-center">Hide</th>
-				<th class="text-center"><i class="icon-settings"></i></th>
 			</tr>
 			</thead>
 			<tbody>
 
 			{% for user in site.data.users limit: 8 offset: 50 %}
-			{% assign percentage = forloop.index | random_number: 10 90 %}
+			{% assign percentage = forloop.index | random_number: 10 80 %}
 			{% assign time_offset = forloop.index | random_number: 3600, 35999 %}
 			{% assign register_offset = forloop.index | random_number: 0, 8000000 %}
 			<tr>
@@ -38,7 +37,7 @@
 				</td>
 
 				<td class="text-center">
-					{% cycle 'San Francisco', 'San Francisco', 'Oakland', 'Denver', 'Vancouver', 'New York', 'Toronto', 'Los Angeles' %}
+					{% cycle 'San Francisco', 'San Francisco', 'Oakland', 'Denver', 'Vancouver', 'Sacramento', 'Toronto', 'Los Angeles' %}
 				</td>
 
 				<td>
@@ -68,38 +67,18 @@
 					<div>{{ site.time | date: "%s" | minus: time_offset | to_pretty_time }}</div>
 				</td>
 
-				<!--<td class="text-center">-->
-					<!--<div class="avatar d-block" style="background-image: url({{ user.photo }})">-->
-						<!--<span class="avatar-status bg-green"></span>-->
-					<!--</div>-->
-				<!--</td>-->
-
-				<!--<td>-->
-					<!--<div>{{ user.name }} {{ user.surname }}</div>-->
-					<!--&lt;!&ndash;<div class="small text-muted">&ndash;&gt;-->
-						<!--&lt;!&ndash;Registered: {{ site.time | date: "%s" | minus: register_offset | date: '%b %-d, %Y' }}&ndash;&gt;-->
-					<!--&lt;!&ndash;</div>&ndash;&gt;-->
-				<!--</td>-->
-
 				<td class="text-center">
 					<button type="button" class="btn btn-outline-primary"><i class="fe fe-camera"></i></button>
 				</td>
 
 				<td class="text-center">
 					<button type="button" class="btn btn-outline-success"><i class="fe fe-check mr-2"></i>Connect</button>
-					<!--{% assign circle-percentage = forloop.index | random_number: 0, 100 %}-->
-					<!--<div class="mx-auto chart-circle chart-circle-xs" data-value="{{ circle-percentage | divide: 100 }}" data-thickness="3" data-color="blue">-->
-						<!--<div class="chart-circle-value">{{ circle-percentage }}%</div>-->
-					<!--</div>-->
 				</td>
 
 				<td class="text-center">
 					<button type="button" class="btn btn-icon btn-outline-danger"><i class="fe fe-eye-off"></i></button>
 				</td>
 
-				<td class="text-center">
-					{% include dropdown-options.html %}
-				</td>
 			</tr>
 			{% endfor %}
 			</tbody>
@@ -107,7 +86,7 @@
 		<script>
           require(['datatables', 'jquery'], function(datatable, $) {
             $('.datatable_users').dataTable({
-              "aaSorting": [[2,'desc'], [3,'asc']],
+              // "aaSorting": [[2,'desc'], [3,'asc']],
               "searching": false,
               "bDestroy": true,
               "bPaginate": false,

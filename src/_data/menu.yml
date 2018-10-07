@@ -3,6 +3,11 @@ index:
   icon: fe fe-home
   url: index.html
 
+create:
+  name: Create
+  icon: fe fe-plus-circle
+  url: store.html
+
 interface:
   name: Share
   icon: fe fe-share-2
@@ -32,10 +37,6 @@ components:
     icons:
       name: Report user
       url: icons.html
-
-    store:
-      name: Store
-      url: store.html
 
     blog:
       name: Blog
