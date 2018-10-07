@@ -1,5 +1,6 @@
 ---
 - name: Victoria
+  flag: us
   surname: King
   gender: female
   region: United States

@@ -1,9 +1,12 @@
 <div class="card">
 	<div class="card-header">
 		<h3 class="card-title">Leads</h3>
+		<div class="col-auto ml-lg-auto">
+			<a href="#" class="btn btn-secondary btn-sm">Export as CSV</a>
+		</div>
 	</div>
 	<div class="table-responsive">
-		<table class="table card-table table-vcenter text-nowrap datatable">
+		<table class="table card-table table-vcenter text-nowrap datatable_invoice">
 			<thead>
 			<tr>
 				<th class="w-1">#</th>
@@ -34,7 +37,7 @@
 					{{ invoice.coordinates }}
 				</td>
 
-				<td>
+				<td class="text-center">
 					{{ invoice.timestamp }}
 				</td>
 
@@ -68,7 +71,13 @@
 		</table>
 		<script>
           require(['datatables', 'jquery'], function (datatable, $) {
-            $('.datatable').DataTable();
+            $('.datatable_invoice').dataTable({
+			  "searching": false,
+              "bDestroy": true,
+              "bPaginate": false,
+              "bFilter": false,
+              "bInfo": false
+            });
           });
 		</script>
 	</div>

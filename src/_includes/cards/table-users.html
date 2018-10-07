@@ -1,12 +1,21 @@
 <div class="card">
 	<div class="card-header">
 		<h3 class="card-title">Sightings</h3>
+		<div>
+			<b><i class="text-muted mb-4">
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sightings become Leads when accepted
+			</i></b>
+		</div>
+		<div class="col-auto ml-lg-auto">
+			<a href="#" class="btn btn-secondary btn-sm">Export as CSV</a>
+		</div>
 	</div>
 	<div class="table-responsive">
-		<table class="table table-hover table-outline table-vcenter text-nowrap card-table datatable">
+		<table class="table table-hover table-outline table-vcenter text-nowrap card-table datatable_users">
 			<thead>
 			<tr>
 				<th class="text-center">Country</th>
+				<th class="text-center">City</th>
 				<th>Accuracy</th>
 				<th>Timestamp</th>
 				<!--<th class="text-center w-1"><i class="icon-people"></i></th>-->
@@ -20,12 +29,16 @@
 			<tbody>
 
 			{% for user in site.data.users limit: 8 offset: 50 %}
-			{% assign percentage = forloop.index | random_number %}
-			{% assign time_offset = forloop.index | random_number: 0, 800 %}
+			{% assign percentage = forloop.index | random_number: 10 90 %}
+			{% assign time_offset = forloop.index | random_number: 3600, 35999 %}
 			{% assign register_offset = forloop.index | random_number: 0, 8000000 %}
 			<tr>
 				<td class="text-center">
 					<i class="flag flag-{% cycle 'us', 'us', 'us', 'us', 'ca', 'us', 'ca' %}"></i>
+				</td>
+
+				<td class="text-center">
+					{% cycle 'San Francisco', 'San Francisco', 'Oakland', 'Denver', 'Vancouver', 'New York', 'Toronto', 'Los Angeles' %}
 				</td>
 
 				<td>
@@ -39,15 +52,15 @@
 								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 							</small>
 						</div>
 					</div>
 					<div class="progress progress-xs">
-						<div class="progress-bar bg-{{ percentage | number_color }}" role="progressbar" style="width: {{ percentage }}%"
-							 aria-valuenow="{{ percentage }}" aria-valuemin="0" aria-valuemax="100"></div>
-					</div>
+                        <div class="progress-bar bg-{{ percentage | number_color }}" role="progressbar"
+                             style="width: {{ percentage }}%"
+                             aria-valuenow="{{ percentage }}" aria-valuemin="0" aria-valuemax="100">
+                        </div>
+                    </div>
 				</td>
 
 				<td>
@@ -93,7 +106,14 @@
 		</table>
 		<script>
           require(['datatables', 'jquery'], function(datatable, $) {
-            $('.datatable').DataTable();
+            $('.datatable_users').dataTable({
+              "aaSorting": [[2,'desc'], [3,'asc']],
+              "searching": false,
+              "bDestroy": true,
+              "bPaginate": false,
+              "bFilter": false,
+              "bInfo": false
+            });
           });
 		</script>
 
